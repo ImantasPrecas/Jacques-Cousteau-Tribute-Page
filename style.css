@@ -140,11 +140,13 @@ image-section {
 
 #img-div {
     display: flex;
+    flex-direction:column;
     justify-content: flex-end;
+
 }
 
 #image {
-    display:flex;
+    display:block;
     align-self: center;
     max-width: 60vh;
     border-radius: .5rem;
